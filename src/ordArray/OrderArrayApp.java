@@ -11,24 +11,25 @@ public class OrderArrayApp {
 
         OrderArray orderArray = new OrderArray(maxSize);
 
-        orderArray.insert(11);
+        orderArray.insert(3);
+        orderArray.insert(1);
+        orderArray.insert(4);
 
-        orderArray.insert(22);
+        orderArray.insert(2);
 
-        orderArray.insert(33);
+        orderArray.insert(6);
 
-        orderArray.insert(44);
+        orderArray.insert(5);
 
-        orderArray.insert(55);
 
-        orderArray.insert(66);
+        orderArray.insert(8);
+        orderArray.insert(7);
 
-        orderArray.insert(77);
 
-        orderArray.insert(88);
+
 
         orderArray.display();
-
+/*
         int searchKey = 55;
 
         int i = orderArray.find(searchKey);
@@ -44,5 +45,6 @@ public class OrderArrayApp {
         orderArray.delete(55);
 
         orderArray.display();
+        */
     }
 }

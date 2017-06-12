@@ -47,12 +47,12 @@ public class OrderArray {
         }
 
 
-        for (int k = nElmes; k > j; k++) {
+        for (int k = nElmes; k > j; k--) {
             a[k] = a[k - 1];
         }
-
-        a[j] = value;
         nElmes ++;
+        a[j] = value;
+
     }
 
     public boolean delete(long value) {
