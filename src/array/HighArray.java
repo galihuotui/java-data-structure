@@ -5,8 +5,8 @@ package array;
  */
 public class HighArray {
 
-    private long[] a;
-    private int nElems;
+    protected long[] a;
+    protected int nElems;
 
     public HighArray(int max) {
         a = new long[max];
@@ -61,5 +61,13 @@ public class HighArray {
         }
 
         System.out.println("");
+    }
+
+    public void swap(int one, int two) {
+        long temp = a[one];
+
+        a[one] = a[two];
+
+        a[two] = temp;
     }
 }
