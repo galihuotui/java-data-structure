@@ -1,20 +1,22 @@
 package simpleSort;
 
+import array.HighArray;
+
 /**
  * Created by cuikangyuan on 2017/6/12.
  */
-public class BubbleSortApp {
+public class SortApp {
 
     public static void main(String[] args) {
 
         int maxSize = 100;
-        ArrayBub arrayBub = new ArrayBub(maxSize);
-
-        arrayBub.insert(77);
-        arrayBub.insert(99);
-        arrayBub.insert(44);
-        arrayBub.insert(55);
-        arrayBub.insert(22);
+        //HighArray arrayBub = new ArrayBub(maxSize);
+        ArrayIns array = new ArrayIns(maxSize);
+        array.insert(77);
+        array.insert(99);
+        array.insert(44);
+        array.insert(55);
+        array.insert(22);
         /*
         arrayBub.insert(88);
         arrayBub.insert(11);
@@ -24,8 +26,12 @@ public class BubbleSortApp {
         */
         //arrayBub.display();
 
-        arrayBub.bubbleSort();
+        //arrayBub.bubbleSort();
 
         //arrayBub.display();
+
+        array.insertSort();
+
+
     }
 }
