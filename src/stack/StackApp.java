@@ -1,4 +1,4 @@
-package Stack;
+package stack;
 
 /**
  * Created by cuikangyuan on 2017/9/1.

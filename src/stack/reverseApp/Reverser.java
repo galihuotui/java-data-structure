@@ -1,7 +1,6 @@
-package Stack.ReverseApp;
+package stack.reverseApp;
 
-import Stack.CharStackX;
-import Stack.StackX;
+import stack.CharStackX;
 
 /**
  * Created by cuikangyuan on 2017/9/1.

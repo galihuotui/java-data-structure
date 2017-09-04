@@ -1,42 +1,36 @@
-package Stack.ReverseApp;
+package stack.brackets;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by cuikangyuan on 2017/9/1.
+ * Created by cuikangyuan on 2017/9/4.
+ * a{b(c[d]e)f}
  */
-public class ReverseApp {
-
+public class BracketsApp {
     public static void main(String[] args) throws IOException {
-        String input, output;
-
+        String input;
         while (true) {
-            System.out.print("Enter a string: ");
+            System.out.print("Enter string containing delimiters: \n");
             System.out.flush();
 
             input = getString();
 
-            if (input.equals("")) {
+            if (("").equals(input)) {
                 break;
             }
 
-            Reverser reverser = new Reverser(input);
-            output = reverser.doRev();
-
-            System.out.println("Reversed: " + output);
+            BracketChecker checker = new BracketChecker(input);
+            checker.check();
         }
     }
 
-
     public static String getString() throws IOException {
         InputStreamReader inputStreamReader = new InputStreamReader(System.in);
-
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
         String s = bufferedReader.readLine();
-
         return s;
     }
 }
