@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkList/LinkListApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkList/FirstLastListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/LinkList/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/LinkList/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkList/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList/LinkList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,16 +15,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="80">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#97#98#0" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstLastListApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +85,8 @@
         <option value="$PROJECT_DIR$/src/LinkList/Link.java" />
         <option value="$PROJECT_DIR$/src/LinkList/LinkList.java" />
         <option value="$PROJECT_DIR$/src/LinkList/LinkListApp2.java" />
+        <option value="$PROJECT_DIR$/src/LinkList/FirstLastList.java" />
+        <option value="$PROJECT_DIR$/src/LinkList/FirstLastListApp.java" />
       </list>
     </option>
   </component>
@@ -273,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="261" y="43" width="1280" height="709" extended-state="0" />
+    <frame x="503" y="29" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -284,13 +300,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13071896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31045753" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1748366" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1748366" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7913534" visible="true" weight="0.06623586" />
-      <window_info id="Structure" order="1" sideWeight="0.20864661" side_tool="true" visible="true" weight="0.06623586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7920792" visible="true" weight="0.112277865" />
+      <window_info id="Structure" order="1" sideWeight="0.20792079" side_tool="true" visible="true" weight="0.112277865" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -556,13 +572,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="80">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
           </folding>
         </state>
       </provider>
