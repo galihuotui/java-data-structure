@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinkList/LinkStackApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkList/FirstLastListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList/FirstLastListApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +30,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstLastListApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstLastListApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="99">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkStackApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkList/LinkStackApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,12 +106,14 @@
         <option value="$PROJECT_DIR$/src/LinkList/LinkListApp2.java" />
         <option value="$PROJECT_DIR$/src/LinkList/FirstLastList.java" />
         <option value="$PROJECT_DIR$/src/LinkList/FirstLastListApp.java" />
+        <option value="$PROJECT_DIR$/src/LinkList/LinkStack.java" />
+        <option value="$PROJECT_DIR$/src/LinkList/LinkStackApp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
-    <option name="y" value="24" />
+    <option name="x" value="283" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -150,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkListApp2">
+  <component name="RunManager" selected="Application.LinkStackApp">
     <configuration name="InFix$InfixApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="infix.InFix$InfixApp" />
       <module name="java-data-structure" />
@@ -184,6 +213,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="LinkStackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkList.LinkStackApp" />
+      <module name="java-data-structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PostFix$InfixApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="infix.PostFix$InfixApp" />
       <module name="java-data-structure" />
@@ -191,17 +231,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="infix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueApp" />
-      <module name="java-data-structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,19 +277,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.InFix$InfixApp" />
       <item itemvalue="Application.PostFix$InfixApp" />
       <item itemvalue="Application.LinkListApp" />
       <item itemvalue="Application.LinkListApp2" />
+      <item itemvalue="Application.LinkStackApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkStackApp" />
         <item itemvalue="Application.LinkListApp2" />
         <item itemvalue="Application.LinkListApp" />
         <item itemvalue="Application.PostFix$InfixApp" />
         <item itemvalue="Application.InFix$InfixApp" />
-        <item itemvalue="Application.QueueApp" />
       </list>
     </recent_temporary>
   </component>
@@ -281,23 +310,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="24" width="1280" height="709" extended-state="0" />
+    <frame x="283" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.19831933" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31045753" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31045753" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1748366" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1748366" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7841584" visible="true" weight="0.16235864" />
-      <window_info id="Structure" order="1" sideWeight="0.21584159" side_tool="true" visible="true" weight="0.16235864" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7819905" visible="true" weight="0.10500808" />
+      <window_info id="Structure" order="1" sideWeight="0.21800947" side_tool="true" visible="true" weight="0.10500808" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -305,7 +335,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.19831933" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -676,8 +705,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="99">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkList/LinkStackApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
