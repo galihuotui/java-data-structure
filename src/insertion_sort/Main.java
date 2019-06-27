@@ -31,7 +31,7 @@ public class Main {
 
                 for (j = i; j > 0; j--) {
 
-                    if (array[j - 1] > array[j]) {
+                    if (array[j - 1] > current) {
 
                         array[j] = array[j - 1];
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/insertion_sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertion_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertion_sort/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/insertion_sort/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="214">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -77,8 +76,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="23" />
+    <option name="x" value="16" />
+    <option name="y" value="61" />
     <option name="width" value="1120" />
     <option name="height" value="705" />
   </component>
@@ -275,7 +274,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="23" width="1120" height="705" extended-state="0" />
+    <frame x="16" y="61" width="1120" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -286,17 +285,17 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04276316" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4276316" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20559211" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3963816" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7628866" visible="true" weight="0.059369203" />
-      <window_info id="Structure" order="1" sideWeight="0.2371134" side_tool="true" visible="true" weight="0.059369203" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76144576" visible="true" weight="0.059369203" />
+      <window_info id="Structure" order="1" sideWeight="0.23855421" side_tool="true" visible="true" weight="0.059369203" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31743422" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31743422" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,8 +317,14 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/insertion_sort/Main.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -699,8 +704,8 @@
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/insertion_sort/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="214">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
