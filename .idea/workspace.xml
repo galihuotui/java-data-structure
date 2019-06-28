@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/quick_sort/Case1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/insertion_sort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/insertion_sort/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quick_sort/Case1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quick_sort/Case1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="Case1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="288">
+              <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -88,7 +86,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
+    <option name="x" value="51" />
     <option name="y" value="23" />
     <option name="width" value="1120" />
     <option name="height" value="705" />
@@ -292,7 +290,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="23" width="1120" height="705" extended-state="0" />
+    <frame x="51" y="23" width="1120" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -303,13 +301,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13815789" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0625" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3963816" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4506579" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7614504" visible="true" weight="0.0037105752" />
-      <window_info id="Structure" order="1" sideWeight="0.23854962" side_tool="true" visible="true" weight="0.0037105752" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7614035" visible="true" weight="0.0037105752" />
+      <window_info id="Structure" order="1" sideWeight="0.23859648" side_tool="true" visible="true" weight="0.0037105752" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -334,12 +332,6 @@
           <line>99</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/quick_sort/Case1.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="10" />
@@ -727,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="288">
+          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
         </state>
       </provider>
     </entry>

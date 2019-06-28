@@ -4,7 +4,8 @@ public class Case1 {
 
     public static void main(String[] args) {
 
-        int[] array = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+        //int[] array = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+        int[] array = {9, 1, 7, 3, 8, 4, 7, 2, 1};
 
         Case1 case1 = new Case1();
 
@@ -22,12 +23,23 @@ public class Case1 {
 
         if (low < high) {
 
+            if (high - low == 1) {
+
+                if (array[low] > array[high]) {
+
+                    swap(array, low, high);
+                }
+
+                return;
+
+            }
 
             int index = partition(array, low, high);
 
             quickSort(array, low, index - 1);
 
             quickSort(array, index + 1, high);
+
 
         }
 
@@ -37,41 +49,53 @@ public class Case1 {
     public int partition(int[] array, int low, int high) {
 
 
+        System.out.println("before partition: low index: " + low + " high index: " + high + " ");
+        printArray(array);
+
         int pivot = array[low];
 
         int left = low + 1;
 
         int right = high;
 
-        while (array[left] < pivot) {
+        System.out.println("pivot value: " + pivot + " left index: " + left + " right index: " + right);
 
-            if (left == high) {
+        while (left < right) {
+            while (array[left] < pivot) {
 
-                break;
+                if (left == high) {
+
+                    break;
+                }
+
+                left ++;
+
             }
 
-            left ++;
+            while (array[right] > pivot) {
 
-        }
+                if (right == low) {
+                    break;
+                }
 
-        while (array[right] > pivot) {
+                right --;
 
-            if (right == low) {
-                break;
             }
 
-            right --;
+            if (left < right) {
 
+                swap(array, left, right);
+
+            }
         }
 
-        if (left < right) {
 
-            swap(array, left, right);
-
-        }
 
 
         swap(array, low, right);
+
+        System.out.println("after partition: ");
+        printArray(array);
 
         return right;
 
