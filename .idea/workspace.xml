@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/insertion_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertion_sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quick_sort/Case1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/insertion_sort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/insertion_sort/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/insertion_sort/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="126">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Case1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -72,12 +83,13 @@
         <option value="$PROJECT_DIR$/src/RSAUtil.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/insertion_sort/Main.java" />
+        <option value="$PROJECT_DIR$/src/quick_sort/Case1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="61" />
+    <option name="x" value="103" />
+    <option name="y" value="23" />
     <option name="width" value="1120" />
     <option name="height" value="705" />
   </component>
@@ -89,9 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,12 +123,19 @@
             </path>
             <path>
               <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="quick_sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +161,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Case1">
+    <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quick_sort.Case1" />
+      <module name="java-data-structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quick_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="insertion_sort.Main" />
       <module name="java-data-structure" />
@@ -176,17 +205,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursion.factorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="interIterator$InterIterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Iterator.interIterator$InterIterApp" />
-      <module name="java-data-structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,19 +259,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.interIterator$InterIterApp" />
       <item itemvalue="Application.triangle$TriangleApp" />
       <item itemvalue="Application.factorial$FactorialApp" />
       <item itemvalue="Application.anagram$AnagramApp" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Case1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Case1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.anagram$AnagramApp" />
         <item itemvalue="Application.factorial$FactorialApp" />
         <item itemvalue="Application.triangle$TriangleApp" />
-        <item itemvalue="Application.interIterator$InterIterApp" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +292,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="61" width="1120" height="705" extended-state="0" />
+    <frame x="103" y="23" width="1120" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -285,17 +303,17 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4276316" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13815789" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3963816" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76144576" visible="true" weight="0.059369203" />
-      <window_info id="Structure" order="1" sideWeight="0.23855421" side_tool="true" visible="true" weight="0.059369203" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7614504" visible="true" weight="0.0037105752" />
+      <window_info id="Structure" order="1" sideWeight="0.23854962" side_tool="true" visible="true" weight="0.0037105752" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31743422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09375" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,17 +336,22 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/insertion_sort/Main.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/src/quick_sort/Case1.java</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>array[left]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>stackArray</expression-string>
         <language-id>JAVA</language-id>
@@ -337,13 +360,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -704,8 +720,15 @@
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/insertion_sort/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
         </state>
       </provider>
     </entry>
