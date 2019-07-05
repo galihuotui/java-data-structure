@@ -48,9 +48,9 @@ public class Case1 {
 
     public int partition(int[] array, int low, int high) {
 
+        System.out.println("array before partition : ");
 
-        System.out.println("before partition: low index: " + low + " high index: " + high + " ");
-        printArray(array);
+        System.out.println("partition: low index: " + low + " high index: " + high + " ");
 
         int pivot = array[low];
 
@@ -58,9 +58,13 @@ public class Case1 {
 
         int right = high;
 
-        System.out.println("pivot value: " + pivot + " left index: " + left + " right index: " + right);
+        System.out.println("partition pivot value: " + pivot + " left index: " + left + " right index: " + right);
+
+        System.out.println("start partition ");
+
 
         while (left < right) {
+
             while (array[left] < pivot) {
 
                 if (left == high) {
@@ -84,17 +88,18 @@ public class Case1 {
 
             if (left < right) {
 
-                swap(array, left, right);
+                System.out.println("swap left and right : " + " left value -> " + array[left] + " right value -> " + array[right]);
 
+                swap(array, left, right);
             }
         }
 
-
-
+        System.out.println("swap low and right : " + " low value -> " + array[low] + " right value -> " + array[right]);
 
         swap(array, low, right);
 
-        System.out.println("after partition: ");
+        System.out.println("array after partition : ");
+
         printArray(array);
 
         return right;
