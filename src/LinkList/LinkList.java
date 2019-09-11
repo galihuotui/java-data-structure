@@ -2,12 +2,87 @@ package LinkList;
 
 public class LinkList {
 
-    private Link first;
+    public Link first;
 
 
-    public void LinkList() {
+    //反转-遍历
+    public LinkList reverseLinkedListWithLoop() {
+
+        Link newHead = reverse2(this.first);
+
+        return new LinkList(newHead);
+    }
+
+
+
+    //反转-递归
+    public LinkList reverseLinkedListWithRecursion() {
+
+        Link newHead = reverse1(this.first);
+
+        return new LinkList(newHead);
+    }
+
+
+    public Link reverse2(Link node) {
+
+
+        Link pre = null;
+        Link next = null;
+
+        while (node != null) {
+
+            next = node.next;
+            node.next = pre;
+
+            pre = node;
+            node = next;
+
+        }
+
+
+        return pre;
+
+
+    }
+
+
+    public Link reverse1(Link node) {
+
+        if (node == null || node.next == null) {
+
+            return node;
+
+        } else {
+
+            Link temp = node.next;
+
+            Link newHead = reverse1(node.next);
+
+            temp.next = node;
+
+            node.next = null;
+
+            return newHead;
+
+
+        }
+
+
+    }
+
+
+    public LinkList(Link first) {
+
+        this.first = first;
+
+    }
+
+    public LinkList() {
+
         first = null;
     }
+
 
     public boolean isEmpty() {
         return (first == null);

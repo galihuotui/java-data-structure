@@ -6,6 +6,10 @@ public class Link {
     public double dData;
     public Link next;
 
+    public Link() {
+
+    }
+
     public Link(int id, double dd) {
         iData = id;
         dData = dd;
