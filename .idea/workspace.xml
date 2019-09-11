@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classLoaderTest/Caesar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classLoaderTest/CryptoClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classLoaderTest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/insertion_sort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/insertion_sort/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertion_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertion_sort/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,47 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classLoaderTest/Main.java">
+      <file leaf-file-name="Case1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Caesar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classLoaderTest/Caesar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CryptoClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classLoaderTest/CryptoClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1959">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -110,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/recursion/anagram/anagram.java" />
         <option value="$PROJECT_DIR$/src/RSAUtil.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/insertion_sort/Main.java" />
         <option value="$PROJECT_DIR$/src/quick_sort/Case1.java" />
         <option value="$PROJECT_DIR$/src/generic_class/Pair.java" />
         <option value="$PROJECT_DIR$/src/generic_class/PairTest1.java" />
@@ -121,13 +83,13 @@
         <option value="$PROJECT_DIR$/src/classLoaderTest/CryptoClassLoader.java" />
         <option value="$PROJECT_DIR$/src/classLoaderTest/Caesar.java" />
         <option value="$PROJECT_DIR$/src/classLoaderTest/Main.java" />
+        <option value="$PROJECT_DIR$/src/insertion_sort/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="354" />
     <option name="y" value="40" />
-    <option name="width" value="1149" />
+    <option name="width" value="1258" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -138,9 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +116,13 @@
               <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="classLoaderTest" type="462c0819:PsiDirectoryNode" />
+              <item name="insertion_sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="quick_sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
@@ -167,6 +132,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnSynchBankTest">
+  <component name="RunManager" selected="Application.Case1">
     <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="quick_sort.Case1" />
       <module name="java-data-structure" />
@@ -298,9 +266,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Case1" />
         <item itemvalue="Application.UnSynchBankTest" />
         <item itemvalue="Application.PairTest1" />
-        <item itemvalue="Application.Case1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.anagram$AnagramApp" />
       </list>
@@ -332,7 +300,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="354" y="40" width="1149" height="705" extended-state="0" />
+    <frame x="0" y="40" width="1258" height="705" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -341,13 +310,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.375" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38980263" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32730263" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16611843" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28618422" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7475345" visible="true" weight="0.03884372" />
-      <window_info id="Structure" order="1" sideWeight="0.2524655" side_tool="true" visible="true" weight="0.03884372" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74013156" visible="true" weight="0.098684214" />
+      <window_info id="Structure" order="1" sideWeight="0.2598684" side_tool="true" visible="true" weight="0.098684214" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -656,20 +625,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RSAUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/insertion_sort/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/generic_class/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -726,6 +681,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classLoaderTest/Caesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -735,17 +697,7 @@
     <entry file="file://$PROJECT_DIR$/src/classLoaderTest/CryptoClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classLoaderTest/Caesar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -754,18 +706,29 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="18">
           <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classLoaderTest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/insertion_sort/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quick_sort/Case1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1959">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
