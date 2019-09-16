@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkList/LinkedListReverseApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkList/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList/Link.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkList/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkList/LinkListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList/LinkListApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,30 +19,26 @@
       <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList/LinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="126">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkListApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkListApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkList/LinkListApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="353">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -51,7 +46,7 @@
       <file leaf-file-name="LinkedListReverseApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList/LinkedListReverseApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="324">
               <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
@@ -60,8 +55,8 @@
       <file leaf-file-name="FirstLastListApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="846">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -94,7 +89,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/infix/InFix.java" />
         <option value="$PROJECT_DIR$/src/infix/PostFix.java" />
-        <option value="$PROJECT_DIR$/src/LinkList/LinkListApp.java" />
         <option value="$PROJECT_DIR$/src/LinkList/LinkListApp2.java" />
         <option value="$PROJECT_DIR$/src/LinkList/FirstLastList.java" />
         <option value="$PROJECT_DIR$/src/LinkList/FirstLastListApp.java" />
@@ -124,15 +118,17 @@
         <option value="$PROJECT_DIR$/src/classLoaderTest/Main.java" />
         <option value="$PROJECT_DIR$/src/insertion_sort/Main.java" />
         <option value="$PROJECT_DIR$/src/LinkList/Link.java" />
-        <option value="$PROJECT_DIR$/src/LinkList/LinkList.java" />
         <option value="$PROJECT_DIR$/src/LinkList/LinkedListReverseApp.java" />
+        <option value="$PROJECT_DIR$/src/LinkList/LinkList.java" />
+        <option value="$PROJECT_DIR$/src/LinkList/LinkListApp.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="40" />
-    <option name="width" value="1258" />
-    <option name="height" value="705" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="226" />
+    <option name="y" value="39" />
+    <option name="width" value="1715" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,9 +170,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListReverseApp">
+  <component name="RunManager" selected="Application.LinkListApp">
     <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="quick_sort.Case1" />
       <module name="java-data-structure" />
@@ -214,8 +210,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LinkedListReverseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkList.LinkedListReverseApp" />
+    <configuration name="LinkListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkList.LinkListApp" />
       <module name="java-data-structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -225,13 +221,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertion_sort.Main" />
+    <configuration name="LinkedListReverseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkList.LinkedListReverseApp" />
       <module name="java-data-structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertion_sort.*" />
+          <option name="PATTERN" value="LinkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,19 +296,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Case1" />
       <item itemvalue="Application.PairTest1" />
       <item itemvalue="Application.UnSynchBankTest" />
       <item itemvalue="Application.LinkedListReverseApp" />
+      <item itemvalue="Application.LinkListApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkListApp" />
         <item itemvalue="Application.LinkedListReverseApp" />
         <item itemvalue="Application.Case1" />
         <item itemvalue="Application.UnSynchBankTest" />
         <item itemvalue="Application.PairTest1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +338,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="23" width="1258" height="705" extended-state="0" />
+    <frame x="226" y="39" width="1715" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -353,14 +349,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23190789" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13099042" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32730263" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.019736841" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73661673" visible="true" weight="0.08634868" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.2633833" side_tool="true" visible="true" weight="0.08634868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7334559" visible="true" weight="0.041841004" />
+      <window_info id="Structure" order="1" sideWeight="0.2665441" side_tool="true" visible="true" weight="0.041841004" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -371,6 +366,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -622,16 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,40 +721,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/FirstLastListApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkList/LinkListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkList/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="846">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/LinkedListReverseApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="324">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkList/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkList/LinkListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
         </state>
       </provider>
     </entry>

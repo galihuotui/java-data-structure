@@ -5,6 +5,88 @@ public class LinkList {
     public Link first;
 
 
+    public boolean linkHasCircle() {
+
+
+        Link fast = first;
+        Link slow = first;
+
+        while(fast != null && fast.next != null) {
+
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow) {
+
+                return true;
+            }
+
+        }
+
+        return false;
+    }
+
+
+    public Link theMiddleNode() {
+
+        if (first == null) {
+
+            return null;
+        }
+
+        Link fast = first;
+        Link slow = first;
+
+        while (fast != null && fast.next != null) {
+
+            fast = fast.next.next;
+
+            if (fast != null) {
+
+                slow = slow.next;
+
+            }
+        }
+
+        return slow;
+
+    }
+
+    public Link theLastKthNode(int k) {
+
+
+        if (k < 0) {
+
+            return null;
+        }
+
+        Link fast = this.first;
+        Link slow = this.first;
+
+        int i=k;
+
+        for (; i > 0 && fast != null; i--) {
+
+            fast = fast.next;
+
+        }
+
+        if (i > 0) {
+
+            return null;
+        }
+
+        while (fast != null) {
+
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow;
+
+
+    }
+
     //反转-遍历
     public LinkList reverseLinkedListWithLoop() {
 
