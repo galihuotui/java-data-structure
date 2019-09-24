@@ -23,6 +23,21 @@ public class triangle {
 
         }
 
+        public static int triangle1(int n) {
+
+            int total = 0;
+
+            while (n > 0) { //until n is 1
+
+                total = total + n; //add n (column height) to total
+                --n; //decrement column height
+
+            }
+
+            return total;
+
+        }
+
         public static int triangle(int n) {
 
             System.out.println("Entering : n = " + n);
