@@ -18,6 +18,54 @@ public class OrderArray {
         return nElmes;
     }
 
+
+    public int findWithRec(int searchKey) {
+
+        return recFind(searchKey,0, nElmes - 1);
+
+    }
+
+    public int recFind(long searchKey,
+                       int lowerBound,
+                       int upperBound) {
+        int curIn;
+
+        curIn = (lowerBound + upperBound) / 2;
+
+        if (a[curIn] == searchKey) {
+
+            return curIn; //found it
+
+        } else if (lowerBound > upperBound) {
+
+            //cannot find it
+            return nElmes;
+
+
+        } else {
+            //divide range
+            if (a[curIn] < searchKey) {
+                //it's in upper half
+                return recFind(
+                        searchKey,
+                        curIn + 1,
+                        upperBound);
+
+            } else {
+
+                //it's in lower half
+                return recFind(
+                        searchKey,
+                        lowerBound,
+                        curIn-1
+                );
+
+            }
+
+        }
+
+    }
+
     public int find(long searchKey) {
         int lowerBound = 0;
         int upperBound = nElmes - 1;
