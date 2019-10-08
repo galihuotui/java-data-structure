@@ -42,8 +42,11 @@ public class DArray {
 
     public void recMergeSort(long[] workSpace, int lowerBound, int upperBound) {
 
+        System.out.println("Entering" + lowerBound + "-" +upperBound);
 
         if (lowerBound == upperBound) { // if range is 1
+
+            System.out.println("Base-Case " + lowerBound + "-" +upperBound);
 
             return;                     //no use sorting
 
@@ -53,12 +56,15 @@ public class DArray {
             int mid = (lowerBound + upperBound) / 2;
 
             //sort low half
+            System.out.println("Will sort low half of " + lowerBound + "-" +upperBound);
             recMergeSort(workSpace, lowerBound, mid);
 
             //sort high half
+            System.out.println("Will sort low half of " + lowerBound + "-" +upperBound);
             recMergeSort(workSpace, mid+1, upperBound);
 
             //merge them
+            System.out.println("Will merge halves into " + lowerBound + "-" +upperBound);
             merge(workSpace, lowerBound, mid + 1, upperBound);
 
         }
