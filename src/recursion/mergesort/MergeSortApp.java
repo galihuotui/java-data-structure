@@ -30,5 +30,6 @@ public class MergeSortApp {
         arr.display();
 
         //dev commit 1
+        //dev commit 2
     }
 }
