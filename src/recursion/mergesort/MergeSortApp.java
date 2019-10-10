@@ -28,5 +28,6 @@ public class MergeSortApp {
         arr.mergeSort();
 
         arr.display();
+        //master branch commit 1
     }
 }
