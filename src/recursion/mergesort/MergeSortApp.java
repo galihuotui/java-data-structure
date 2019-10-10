@@ -29,5 +29,8 @@ public class MergeSortApp {
 
         arr.display();
         //master branch commit 1
+
+        //dev commit 1
+        //dev commit 2
     }
 }

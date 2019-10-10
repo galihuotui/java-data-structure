@@ -17,8 +17,13 @@
       <file leaf-file-name="MergeSortApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="229">
               <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+=======
+            <state relative-caret-position="247">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+>>>>>>> dev
             </state>
           </provider>
         </entry>
@@ -106,8 +111,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="339" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="246" />
     <option name="y" value="24" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
@@ -367,8 +372,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.34375" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.015347335" />
+=======
+>>>>>>> dev
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -727,17 +735,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/mergeSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java">
+    <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/DArray.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="229">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+=======
+        <state relative-caret-position="288">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+>>>>>>> dev
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/DArray.java">
+    <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="288">
           <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+=======
+        <state relative-caret-position="247">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+>>>>>>> dev
         </state>
       </provider>
     </entry>
