@@ -28,5 +28,7 @@ public class MergeSortApp {
         arr.mergeSort();
 
         arr.display();
+
+        //dev commit 1
     }
 }
