@@ -35,5 +35,6 @@ public class MergeSortApp {
 
         //master branch commit 2
 
+        //dev2 branch commit 1
     }
 }
