@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/stackTriangle/JavaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/stackTriangle/Params.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/stackTriangle/StackTriangleApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/stackTriangle/StackX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-data-structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-data-structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/recursion/mergesort/MergeSortApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/recursion/mergesort/MergeSortApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,25 +22,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeSortApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java">
+      <file leaf-file-name="Params.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/Params.kt">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="229">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-=======
-            <state relative-caret-position="247">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
->>>>>>> dev
+            <state relative-caret-position="72">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/DArray.java">
+      <file leaf-file-name="StackX.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/StackX.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackTriangleApp.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/StackTriangleApp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14202">
+              <caret line="789" column="18" selection-start-line="789" selection-start-column="18" selection-end-line="789" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/JavaUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScriptingFunctions.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/ScriptingFunctions.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Global.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/Global.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14670">
+              <caret line="815" column="25" selection-start-line="815" selection-start-column="25" selection-end-line="815" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -59,6 +110,7 @@
       <find>find</find>
       <find>insert</find>
       <find>merge</find>
+      <find>theAnswer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,12 +160,15 @@
         <option value="$PROJECT_DIR$/src/recursion/mergesort/mergeSort.java" />
         <option value="$PROJECT_DIR$/src/recursion/mergesort/DArray.java" />
         <option value="$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java" />
+        <option value="$PROJECT_DIR$/src/recursion/stackTriangle/StackX.kt" />
+        <option value="$PROJECT_DIR$/src/recursion/stackTriangle/Params.kt" />
+        <option value="$PROJECT_DIR$/src/recursion/stackTriangle/StackTriangleApp.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="246" />
-    <option name="y" value="24" />
+    <option name="x" value="254" />
+    <option name="y" value="32" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
@@ -126,6 +181,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +198,12 @@
               <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,18 +211,13 @@
               <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="mergesort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="stackTriangle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,18 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortApp">
-    <configuration name="LinkListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkList.LinkListApp" />
-      <module name="java-data-structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.recursion.stackTriangle.StackTriangleAppKt">
     <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.mergesort.MergeSortApp" />
       <module name="java-data-structure" />
@@ -261,6 +307,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="recursion.stackTriangle.StackTriangleAppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structure" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="recursion.stackTriangle.StackTriangleAppKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -284,19 +340,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LinkListApp" />
       <item itemvalue="Application.anagram$AnagramApp" />
       <item itemvalue="Application.TestApp" />
       <item itemvalue="Application.towers" />
       <item itemvalue="Application.MergeSortApp" />
+      <item itemvalue="Kotlin.recursion.stackTriangle.StackTriangleAppKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.recursion.stackTriangle.StackTriangleAppKt" />
         <item itemvalue="Application.MergeSortApp" />
         <item itemvalue="Application.towers" />
         <item itemvalue="Application.TestApp" />
         <item itemvalue="Application.anagram$AnagramApp" />
-        <item itemvalue="Application.LinkListApp" />
       </list>
     </recent_temporary>
   </component>
@@ -326,19 +382,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <frame x="136" y="23" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32747602" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.34375" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35942492" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15814696" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3258786" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47284344" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38178915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.015347335" />
@@ -346,37 +403,14 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34664536" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38178915" />
-      <window_info id="Structure" order="1" sideWeight="0.1979346" side_tool="true" weight="0.08319871" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32747602" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3258786" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15814696" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09375" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.34375" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.015347335" />
-=======
->>>>>>> dev
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -410,34 +444,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/infix/PostFix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queue/QueueApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-data-structure.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/infix/InFix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2682">
@@ -737,25 +743,43 @@
     <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/mergeSort.java" />
     <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/DArray.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="229">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-=======
-        <state relative-caret-position="288">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
->>>>>>> dev
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursion/mergesort/MergeSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="288">
           <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-=======
-        <state relative-caret-position="247">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
->>>>>>> dev
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14202">
+          <caret line="789" column="18" selection-start-line="789" selection-start-column="18" selection-end-line="789" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/StackX.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/Params.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/StackTriangleApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
