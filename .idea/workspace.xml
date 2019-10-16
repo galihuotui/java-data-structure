@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/stackTriangle2/StackTriangleApp2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/stackTriangle2/StackX.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shellSort/ArraySh.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shellSort/ShellSortApp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,38 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StackTriangleApp.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/StackTriangleApp.kt">
+      <file leaf-file-name="ArraySh.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shellSort/ArraySh.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="141">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackTriangleApp2.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle2/StackTriangleApp2.kt">
+      <file leaf-file-name="ShellSortApp.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shellSort/ShellSortApp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackX.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle/StackX.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackX.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle2/StackX.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="306">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -55,17 +37,8 @@
       <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Library.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="75" column="22" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="483">
+              <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -77,6 +50,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -148,12 +123,14 @@
         <option value="$PROJECT_DIR$/src/recursion/stackTriangle/StackTriangleApp.kt" />
         <option value="$PROJECT_DIR$/src/recursion/stackTriangle2/StackTriangleApp2.kt" />
         <option value="$PROJECT_DIR$/src/recursion/stackTriangle2/StackX.kt" />
+        <option value="$PROJECT_DIR$/src/shellSort/ArraySh.kt" />
+        <option value="$PROJECT_DIR$/src/shellSort/ShellSortApp.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="29" />
+    <option name="x" value="281" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
@@ -165,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,33 +158,15 @@
               <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="stackTriangle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="stackTriangle2" type="462c0819:PsiDirectoryNode" />
+              <item name="shellSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.recursion.stackTriangle2.StackTriangleApp2Kt">
+  <component name="RunManager" selected="Kotlin.shellSort.ShellSortAppKt">
     <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.mergesort.MergeSortApp" />
       <module name="java-data-structure" />
@@ -249,17 +206,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursion.mergesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.binarySearch.TestApp" />
-      <module name="java-data-structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,6 +260,16 @@
       <option name="MAIN_CLASS_NAME" value="recursion.stackTriangle.StackTriangleAppKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="shellSort.ShellSortAppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structure" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="shellSort.ShellSortAppKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -337,19 +293,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TestApp" />
       <item itemvalue="Application.towers" />
       <item itemvalue="Application.MergeSortApp" />
       <item itemvalue="Kotlin.recursion.stackTriangle.StackTriangleAppKt" />
       <item itemvalue="Kotlin.recursion.stackTriangle2.StackTriangleApp2Kt" />
+      <item itemvalue="Kotlin.shellSort.ShellSortAppKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.shellSort.ShellSortAppKt" />
         <item itemvalue="Kotlin.recursion.stackTriangle2.StackTriangleApp2Kt" />
         <item itemvalue="Kotlin.recursion.stackTriangle.StackTriangleAppKt" />
         <item itemvalue="Application.MergeSortApp" />
         <item itemvalue="Application.towers" />
-        <item itemvalue="Application.TestApp" />
       </list>
     </recent_temporary>
   </component>
@@ -379,23 +335,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="29" width="1280" height="723" extended-state="0" />
+    <frame x="281" y="23" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32747602" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.34375" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3434505" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32747602" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.079872206" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3258786" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38338658" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13099042" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.013731825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.09450727" />
       <window_info id="Structure" order="1" sideWeight="0.1979346" side_tool="true" weight="0.08319871" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -441,23 +397,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/infix/InFix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infix/PostFix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList/LinkStackApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -751,29 +690,43 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="1098">
           <caret line="75" column="22" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle2/StackX.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursion/stackTriangle2/StackTriangleApp2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="90">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shellSort/ShellSortApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shellSort/ArraySh.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
