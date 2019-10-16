@@ -35,7 +35,10 @@ class ArraySh(val max: Int) {
             h = h*3 + 1 //(1, 4, 13, 40, 121 ....)
         }
 
+        println("max h: ${h}")
+
         while (h > 0) {
+
 
             for (outer in h until nElems) {
 
@@ -52,8 +55,11 @@ class ArraySh(val max: Int) {
 
                 theArray[inner] = temp
 
+                print("loop h: ${h} outer: ${outer} result: ")
+                display()
 
             }
+
 
             h = (h-1) / 3 //decrease h
 
