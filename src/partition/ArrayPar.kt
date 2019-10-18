@@ -58,7 +58,7 @@ class ArrayPar(val max: Int) {
     }
 
 
-
+    //方法返回分割边界的下标数值 它指向右边(较大关键字)子数组最左端的数据项，划分标记给出了两个子数组的分界
     fun partition(left: Int, right: Int, pivot: Long): Int {
 
         var leftPtr = left - 1

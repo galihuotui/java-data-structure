@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/partition/ArrayPar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partition/ArrayPar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/partition/ArrayPar.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="ArrayPar.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/partition/ArrayPar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="75" column="54" lean-forward="true" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+            <state relative-caret-position="140">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -111,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="24" />
+    <option name="x" value="539" />
+    <option name="y" value="102" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
@@ -316,7 +315,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="24" width="1280" height="723" extended-state="0" />
+    <frame x="435" y="287" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -327,12 +326,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2683706" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2683706" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3258786" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14057508" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16773163" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.08642972" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.03634895" />
       <window_info id="Structure" order="1" sideWeight="0.1979346" side_tool="true" weight="0.08319871" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -706,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partition/ArrayPar.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="75" column="54" lean-forward="true" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        <state relative-caret-position="140">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
         </state>
       </provider>
     </entry>
