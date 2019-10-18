@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/quickSort1/QuickSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/quickSort1/ArrayIns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/quickSort1/ArrayIns.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="QuickSort.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/quickSort1/QuickSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="234">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -139,8 +139,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="28" />
+    <option name="x" value="135" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
@@ -343,7 +343,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="28" width="1280" height="723" extended-state="0" />
+    <frame x="135" y="23" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -354,9 +354,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33067092" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17571884" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3258786" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29233226" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33226836" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.028271405" />
@@ -733,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quickSort1/QuickSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
