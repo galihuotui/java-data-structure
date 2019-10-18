@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/partition/ArrayPar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/partition/ArrayPar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quickSort1/QuickSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayPar.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayPar.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/partition/ArrayPar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+            <state relative-caret-position="194">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/quickSort1/QuickSort.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Random.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="767" column="22" selection-start-line="767" selection-start-column="22" selection-end-line="767" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -30,8 +58,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -106,12 +134,13 @@
         <option value="$PROJECT_DIR$/src/shellSort/ShellSortApp.kt" />
         <option value="$PROJECT_DIR$/src/shellSort/ArraySh.kt" />
         <option value="$PROJECT_DIR$/src/partition/ArrayPar.kt" />
+        <option value="$PROJECT_DIR$/src/quickSort1/QuickSort.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
-    <option name="y" value="102" />
+    <option name="x" value="260" />
+    <option name="y" value="28" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
@@ -141,7 +170,7 @@
               <item name="java-data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partition" type="462c0819:PsiDirectoryNode" />
+              <item name="quickSort1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,18 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.partition.ArrayParKt">
-    <configuration name="MergeSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.mergesort.MergeSortApp" />
-      <module name="java-data-structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.mergesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.quickSort1.QuickSortKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -218,6 +236,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="partition.ArrayParKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="quickSort1.QuickSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structure" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="quickSort1.QuickSortKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="recursion.stackTriangle2.StackTriangleApp2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -273,19 +301,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSortApp" />
       <item itemvalue="Kotlin.recursion.stackTriangle.StackTriangleAppKt" />
       <item itemvalue="Kotlin.recursion.stackTriangle2.StackTriangleApp2Kt" />
       <item itemvalue="Kotlin.shellSort.ShellSortAppKt" />
       <item itemvalue="Kotlin.partition.ArrayParKt" />
+      <item itemvalue="Kotlin.quickSort1.QuickSortKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.quickSort1.QuickSortKt" />
         <item itemvalue="Kotlin.partition.ArrayParKt" />
         <item itemvalue="Kotlin.shellSort.ShellSortAppKt" />
         <item itemvalue="Kotlin.recursion.stackTriangle2.StackTriangleApp2Kt" />
         <item itemvalue="Kotlin.recursion.stackTriangle.StackTriangleAppKt" />
-        <item itemvalue="Application.MergeSortApp" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +343,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="287" width="1280" height="723" extended-state="0" />
+    <frame x="260" y="28" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -326,12 +354,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2683706" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33067092" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3258786" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16773163" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29233226" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.03634895" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80206543" visible="true" weight="0.028271405" />
       <window_info id="Structure" order="1" sideWeight="0.1979346" side_tool="true" weight="0.08319871" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -377,27 +405,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkList/SortedListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="10" selection-start-line="36" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkList/ListInsertionSortApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkList/LinkListApp2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Iterator/interIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -705,8 +712,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partition/ArrayPar.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        <state relative-caret-position="194">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="767" column="22" selection-start-line="767" selection-start-column="22" selection-end-line="767" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quickSort1/QuickSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
