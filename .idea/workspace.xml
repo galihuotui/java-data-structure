@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tree234/DataItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree234/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree234/Tree234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree234/Tree234App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binaryTree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binaryTree/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +22,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>dis</find>
-      <find>doTrans</find>
-      <find>displayStack</find>
-      <find>getS</find>
-      <find>displayWord</find>
-      <find>rotate</find>
-      <find>count</find>
-      <find>find</find>
-      <find>insert</find>
-      <find>merge</find>
-      <find>theAnswer</find>
-      <find>arrayOf</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,14 +197,18 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state x="760" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1588657556640">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="760" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588657556640" />
     <state x="491" y="232" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583845219891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="491" y="232" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1583845219891" />
-    <state x="388" y="1" key="search.everywhere.popup" timestamp="1583936424255">
+    <state x="389" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588663392354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="388" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1583936424255" />
+    <state x="389" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588663392354" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
