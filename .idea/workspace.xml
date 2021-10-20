@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection_homework/Homework01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection_homework/Homework06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nextGreaterElement/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,21 @@
       <recent name="$PROJECT_DIR$/src/recursion/stackTriangle2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework06">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nextGreaterElement.Client" />
+      <module name="java-data-structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nextGreaterElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lowest_common_ancestor.Client" />
       <module name="java-data-structure" />
@@ -122,13 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quickSort3.QuickSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quickSort3.QuickSortKt" />
-      <module name="java-data-structure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -142,16 +148,16 @@
       <item itemvalue="Application.hash$HashTableApp" />
       <item itemvalue="Application.ZeroOnePackageSolution" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Kotlin.quickSort3.QuickSortKt" />
       <item itemvalue="Application.Homework06" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Homework06" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ZeroOnePackageSolution" />
         <item itemvalue="Application.hash$HashTableApp" />
-        <item itemvalue="Kotlin.quickSort3.QuickSortKt" />
       </list>
     </recent_temporary>
   </component>
