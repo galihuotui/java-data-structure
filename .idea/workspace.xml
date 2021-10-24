@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015c25de-55e1-44c0-8a1d-5399ea1dcf4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/monotonicQueue/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/monotonicQueue/Client$MonotonicQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/monotonicQueue/Client$MonotonicQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structure/monotonicQueue/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structure/monotonicQueue/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nextGreaterElement/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextGreaterElement/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src/recursion/stackTriangle2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nextGreaterElement.Client" />
       <module name="java-data-structure" />
@@ -153,8 +155,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Homework06" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ZeroOnePackageSolution" />
