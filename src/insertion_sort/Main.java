@@ -13,9 +13,63 @@ public class Main {
 
         main.printArray(array);
 
-        main.insertionSort(array);
+        //main.insertionSort(array);
+
+        main.insertionSort3(array);
+        main.printArray(array);
 
 
+    }
+
+    public void insertionSort3(int[] array) {
+
+        if (array != null && array.length > 0) {
+
+            for (int i = 1; i < array.length; i++) {
+                int insertValue = array[i];
+                int insertIndex = i;
+
+                while (insertIndex > 0 && insertValue < array[insertIndex-1]) {
+
+                    array[insertIndex] = array[insertIndex-1];
+
+                    insertIndex --;
+                }
+
+                if (insertIndex != i) {
+                    array[insertIndex] = insertValue;
+                }
+
+            }
+
+
+        }
+
+    }
+
+    public void insertionSort2(int[] array) {
+
+        if (array != null && array.length > 0) {
+
+            for (int i = 1; i < array.length; i++) {
+                int insertValue = array[i];
+                int insertIndex = i - 1;
+
+                while (insertIndex >= 0 && insertValue < array[insertIndex]) {
+
+                    array[insertIndex + 1] = array[insertIndex];
+
+                    insertIndex --;
+                }
+
+                if (insertIndex + 1 != i) {
+                    array[insertIndex+1] = insertValue;
+                }
+
+            }
+
+
+        }
 
     }
 

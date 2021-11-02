@@ -212,6 +212,12 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="52" key="RollbackChangesDialog" timestamp="1635866832032">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="52" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1635866832032" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
