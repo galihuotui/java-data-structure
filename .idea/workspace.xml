@@ -174,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -205,18 +205,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="396" y="52" key="RollbackChangesDialog" timestamp="1635866832032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="396" y="52" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1635866832032" />
+    <state x="491" y="232" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1635866275239" />
+    <state x="279" y="0" key="CommitChangelistDialog2" timestamp="1635866313705">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="279" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1635866313705" />
+    <state x="122" y="49" key="DiffContextDialog" timestamp="1635866309123">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="122" y="49" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1635866309123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
