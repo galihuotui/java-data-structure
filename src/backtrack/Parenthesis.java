@@ -27,7 +27,7 @@ public class Parenthesis {
             return;
         }
         if (left == 0 && right == 0) {
-            result.addLast(track);
+            result.addLast(track.toString());
             return;
         }
         track.append("(");
