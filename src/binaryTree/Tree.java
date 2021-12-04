@@ -88,17 +88,21 @@ public class Tree {
         return last;
     }
 
+    //return node with next-highest value after delNode
+    //goes to right child, then right child's left descendants
     private Node getSuccessor(Node delNode) {
         Node successorParent = delNode;
         Node successor = delNode;
-        Node current = delNode.rightChild;
+        Node current = delNode.rightChild;//goto right child
 
+        //until no more left children
         while (current != null) {
             successorParent = successor;
             successor = current;
-            current = current.leftChild;
+            current = current.leftChild;//goto left children
         }
 
+        //if successor not right child make connections
         if (successor != delNode.rightChild) {
             successorParent.leftChild = successor.rightChild;
             successor.rightChild = delNode.rightChild;
